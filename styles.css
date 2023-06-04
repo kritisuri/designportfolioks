@@ -138,6 +138,8 @@ body {
   position: relative;
   box-shadow: 0 2px 25px rgba(255,0,130,0.5);
   transition: box-shadow 0.25s;
+  left: 317px;
+  top: 585px;
 }
 .btn:active{
   background:#d80972;
