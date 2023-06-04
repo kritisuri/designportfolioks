@@ -126,7 +126,9 @@ body {
 }
 
 .brk-btn {
-  position: relative;
+  position: absolute;
+  left: 317px;
+  top: 685px;
   background: none;
   color: aqua;
   text-transform: uppercase;
