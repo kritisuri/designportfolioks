@@ -66,8 +66,7 @@ body {
 
 #image4 {
   position: absolute;
-  left: 436px;
-  top: 988px;
+ 
 }
 
 #image5 {
@@ -124,4 +123,20 @@ body {
   left: 1125px;
 }
 
-
+.btn{
+  display: inline-block;
+  font-size: 18px;
+  padding: 24px 70px;
+  background: #ff1876;
+  color: #fff;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 2px 25px rgba(255,0,130,0.5);
+  left: 436px;
+  top: 988px;
+}
+  
+  
