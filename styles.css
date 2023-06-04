@@ -125,26 +125,48 @@ body {
   left: 1125px;
 }
 
-.btn{
-  display: inline-block;
-  font-size: 18px;
-  padding: 24px 70px;
-  background: #ff1876;
-  color: #fff;
-  border-radius: 40px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  position: absolute;
-  left: 596px;
-  top: 988px;
-  box-shadow: 0 2px 25px rgba(255,0,130,0.5);
-  transition: box-shadow 0.25s;
-
-}
-.btn:active{
-  background:#d80972;
-  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+.brk-btn {
+  position: relative;
+  background: none;
+  color: aqua;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0.2em solid aqua;
+  padding: 0.5em 1em;
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    background: #222;
+    height: 0.3em;
+    right: 20%;
+    top: -0.21em;
+    transform: skewX(-45deg);
+    -webkit-transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    background: #222;
+    height: 0.3em;
+    left: 20%;
+    bottom: -0.25em;
+    transform: skewX(45deg);
+    -webkit-transition: all 0.45 cubic-bezier(0.86, 0, 0.07, 1);
+    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  &:hover {
+    &::before {
+      right: 80%;
+    }
+    &::after {
+      left: 80%;
+    }
+  }
 }
 
   
