@@ -66,6 +66,8 @@ body {
 
 #image4 {
   position: absolute;
+  left: 436px;
+  top: 988px;
  
 }
 
@@ -135,8 +137,7 @@ body {
   cursor: pointer;
   position: relative;
   box-shadow: 0 2px 25px rgba(255,0,130,0.5);
-  left: 436px;
-  top: 988px;
+
 }
   
   
