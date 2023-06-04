@@ -172,7 +172,7 @@ body {
 .vertical-center {
   margin: 0;
   position: absolute;
-  top: 30%;
+  top: 385px;
   -ms-transform: translateY(-30%);
   transform: translateY(-30%);
 }
