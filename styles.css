@@ -124,20 +124,6 @@ body {
   left: 1125px;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: #444857;
-  font-family: sans-serif;
-}
-
-*, *::after, *::before {
-  box-sizing: border-box;
-}
 
 button {
   appearance: none;
