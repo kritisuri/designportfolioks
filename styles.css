@@ -101,13 +101,6 @@ body {
   top: 3766px;
 }
 
-#image-7 {
-  position: absolute;
-  left: 100px;
-  top: 5178px;
-}
-
-#image-8 {
   position: absolute;
   left: 1040px;
   top: 6778px;
@@ -120,12 +113,19 @@ body {
 }
 
 #scroll-link3 {
+#image-7 {
+  position: absolute;
+  left: 100px;
+  top: 5178px;
+}
+
+#image-8 {
   position: absolute;
   top: 86px;
   left: 1125px;
 }
 
-.brk-btn {
+#brk-btn {
   position:relative;
   top:317px;
   left:685pxpx;
@@ -138,7 +138,7 @@ body {
   &::before {
     content: "";
     display: block;
-    position: absolute;
+    position: relative;
     width: 10%;
     background: #222;
     height: 0.3em;
@@ -151,7 +151,7 @@ body {
   &::after {
     content: "";
     display: block;
-    position: absolute;
+    position: relative;
     width: 10%;
     background: #222;
     height: 0.3em;
